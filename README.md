@@ -1,6 +1,6 @@
 ## Overview
 
-This repository contains two Jupyter notebooks that form a progressive agentic AI system for deep research assistance. These agents utilize local LLMs served through Ollama and enhanced with LangChain, along with external web search and YouTube video analysis. The goal of these agents is to support deep research by retrieving, analyzing, and summarizing content from multiple sources, including web pages and video transcripts.
+This repository contains two Jupyter notebooks that form a progressive agentic AI system for deep research assistance. These agents utilize local LLMs served through Ollama, along with external web search with Langchain and YouTube video analysis. The goal of these agents is to support deep research by retrieving, analyzing, and summarizing content from multiple sources, including web pages and video transcripts, in part by emulating a Langchain logic model, memory and abstraction.
 
 ## Files in This Repository
 
@@ -24,7 +24,7 @@ Logic Model in task1:
 - DuckDuckGo search provides web snippets.
 - Snippets are summarized into a coherent research summary.
 - The agent reflects on gaps and iteratively performs new searches if necessary.
-- The process follows a simplified ReAct (Reasoning + Action) loop, using LangChain’s tool abstraction for search and LLM summarization.
+- The process follows a simplified ReAct (Reasoning + Action) loop.
 - Outputs include a printed final summary and source list.
 
 ### task2youtube.ipynb
